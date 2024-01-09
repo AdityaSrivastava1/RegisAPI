@@ -32,6 +32,10 @@ app.use("/api/v1/users",userRouter);
 
 app.use("/api/v1/task",taskRouter);
 
+app.get("/", (req, res) => {
+    res.send("Nice working");
+  });
+
 
 
 //inko uta kr server.js mae paste kr rhe 👇
