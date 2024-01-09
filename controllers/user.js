@@ -49,7 +49,7 @@ export const register = async (req,res)=>{
     const hashedPassword = await bcrypt.hash(password,10);
    
 
-    await User.create({name , email , password:hashedPassword});
+    user = await User.create({name , email , password:hashedPassword});
 
     sendCookie(user,res,"Registered Successfully",201); 
 
