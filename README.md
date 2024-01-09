@@ -15,7 +15,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/Adityasrivastava1/todo-nodejs-api.git
+git clone https://github.com/AdityaSrivastava1/RegisAPI
 Navigate to the project directory:
 
 bash
