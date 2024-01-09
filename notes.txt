@@ -1,0 +1,12 @@
+why we use routes?
+
+ans->We use routes in Node.js to define how the server should respond
+ to different types of client requests (like accessing a webpage or submitting a form) 
+ by directing them to specific functions or handlers.
+
+ if there is any resueast in which initial is repeating then with the help of 
+ routes we can remove them 
+ router.get("/users/all",async (req,res)=>{
+     router.get("/users/userid",async (req,res)=>{
+
+so we can remove users by using app.use("/users",userRouter);
